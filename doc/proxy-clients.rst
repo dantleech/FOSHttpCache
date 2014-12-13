@@ -82,12 +82,13 @@ requests.
 Supported invalidation methods
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-======== ======= ======= =======
-Client   Purge   Refresh Ban
-======== ======= ======= =======
-Varnish  ✓       ✓       ✓
-Nginx    ✓       ✓
-======== ======= ======= =======
+============= ======= ======= =======
+Client        Purge   Refresh Ban
+============= ======= ======= =======
+Varnish       ✓       ✓       ✓
+Nginx         ✓       ✓
+Symfony Cache ✓       ✓
+============= ======= ======= =======
 
 Purge
 ~~~~~
